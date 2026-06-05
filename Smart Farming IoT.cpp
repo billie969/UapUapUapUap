@@ -33,7 +33,7 @@ void prosesSistemIoT() {
     return;
   }
 
-  bool kondisiKering = (nilaiTanah > batasKering);
+  bool kondisiKering = (nilaiTanah < batasKering);
   bool kondisiPanas = (suhu >= batasPanas);
   int statusPompa = 0;
 
